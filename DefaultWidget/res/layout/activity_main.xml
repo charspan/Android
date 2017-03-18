@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/head" />
+
+        <Button
+            android:id="@+id/btn_textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textView"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_editView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editView" />
+
+        <Button
+            android:id="@+id/btn_autoCompleteView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/autoCompleteView" />
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button" />
+
+        <Button
+            android:id="@+id/btn_imageButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imageButton" />
+
+        <Button
+            android:id="@+id/btn_radioButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton" />
+
+        <Button
+            android:id="@+id/btn_checkBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkBox" />
+
+        <Button
+            android:id="@+id/btn_datePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datePicker" />
+
+        <Button
+            android:id="@+id/btn_timePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timePicker" />
+
+        <Button
+            android:id="@+id/btn_imageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imageView" />
+
+        <Button
+            android:id="@+id/btn_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spinner" />
+
+        <Button
+            android:id="@+id/btn_meue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/meue" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register" />
+
+        <Button
+            android:id="@+id/btn_sqlite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sqlite" />
+    </LinearLayout>
+
+</ScrollView>

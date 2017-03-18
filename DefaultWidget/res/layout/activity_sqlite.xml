@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SqliteActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rlup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_name"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/name_edit"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@+id/name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/name_edit"
+            android:text="@string/info_age"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/age_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@+id/age"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:text="@string/info_website"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/website_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/name_edit"
+            android:layout_toRightOf="@+id/website"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/weibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/website"
+            android:text="@string/info_weibo"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/weibo_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/website_edit"
+            android:layout_toRightOf="@+id/weibo"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/weibo_edit"
+            android:text="@string/opr_all" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/all"
+            android:text="@string/opr_clear" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/clear"
+            android:text="@string/opr_add" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/add"
+            android:text="@string/opr_del" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/del"
+            android:text="@string/opr_update" />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/update"
+            android:text="@string/opr_search" />
+
+        <TextView
+            android:id="@+id/author_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search"
+            android:text="@string/author" />
+    </RelativeLayout>
+
+</ScrollView>

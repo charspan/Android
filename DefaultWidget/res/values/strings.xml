@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安卓控件</string>
+    <string name="title_activity_main">安卓控件</string>
+    <string name="textView">TextView</string>
+    <string name="title_activity_text_view">TextViewActivity</string>
+    <string name="editView">EditView</string>
+    <string name="title_activity_edit_view">EditViewActivity</string>
+    <string name="autoCompleteView">AutoCompleteView</string>
+    <string name="title_activity_auto_complete_view">AutoCompleteViewActivity</string>
+
+    <string-array name="autoCompleteView_str">
+        <item>Chna</item>
+        <item>Chinaaaa</item>
+        <item>China</item>
+        <item>Korean</item>
+        <item>Japan</item>
+    </string-array>
+
+    <string name="button">Button</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="imageButton">ImageButton</string>
+    <string name="title_activity_image_button">ImageButtonActivity</string>
+    <string name="radioButton">RadioButton</string>
+    <string name="title_activity_radio_button">RadioButtonActivity</string>
+    <string name="radioButton_que">哪个城市最美？</string>
+    <string name="radiobutton1">杭州</string>
+    <string name="radiobutton2">成都</string>
+    <string name="radiobutton3">重庆</string>
+    <string name="radiobutton4">苏州</string>
+    <string name="checkBox">CheckBox</string>
+    <string name="title_activity_check_box">CheckBoxActivity</string>
+    <string name="datePicker">DatePicker</string>
+    <string name="title_activity_date_picker">DatePickerActivity</string>
+    <string name="timePicker">TimePicker</string>
+    <string name="title_activity_time_picker">TimePickerActivity</string>
+    <string name="imageView">ImageView</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="spinner">Spinner</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+
+    <string-array name="spinnername">
+        <item>ArrayAdapter</item>
+        <item>北京</item>
+        <item>上海 </item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+
+    <string name="meue">Menu</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="sqlite">sqlite</string>
+    <string name="title_activity_sqlite">SqliteActivity</string>
+    <string name="title_activity_sqlite_display">SqliteDisplayActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="citys">
+        <item>ArrayAdapter</item>
+        <item>北京</item>
+        <item>上海 </item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+
+    <string name="info_name">姓名:</string>
+    <string name="info_age">年龄:</string>
+    <string name="info_weibo">微博:</string>
+    <string name="info_website">博客:</string>
+    <string name="opr_all">查看数据库</string>
+    <string name="opr_add">增加会员</string>
+    <string name="opr_del">删除会员(通过姓名)</string>
+    <string name="opr_update">更新会员(通过姓名)</string>
+    <string name="opr_search">查找会员(通过姓名)</string>
+    <string name="opr_clear">清空数据库</string>
+    <string name="author">欢迎访问我的独立博客:www.wirelessqa.com|分隔线|csdnblog:http://blog.csdn.net/wirelessqa|分隔线|weibo: www.weibo.com/wirelessqa</string>
+    <!-- 菜单 -->
+    <string name="menu_share">分享</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_quit">退出</string>
+
+</resources>

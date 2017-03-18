@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用更新</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="update_download_failed">下载失败</string>
+    <string name="update_download_failed_img">update_download_failed_img</string>
+    <string name="update_download_start">开始下载</string>
+    <string name="update_download_progressing">正在下载</string>
+    <string name="update_download_complete">下载完成</string>
+    <string name="update_new_version">version</string>
+    <string name="update_title">title</string>
+    <string name="update_cancel">cancel</string>
+    <string name="update_install">install</string>
+
+</resources>
